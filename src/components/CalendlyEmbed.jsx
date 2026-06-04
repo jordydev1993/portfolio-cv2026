@@ -1,32 +1,19 @@
-import { useEffect } from 'react';
-
 function CalendlyEmbed() {
-  useEffect(() => {
-    const scriptId = 'calendly-widget-script';
-
-    if (!document.getElementById(scriptId)) {
-      const script = document.createElement('script');
-      script.id = scriptId;
-      script.src = 'https://assets.calendly.com/assets/external/widget.js';
-      script.async = true;
-      document.body.appendChild(script);
-    }
-  }, []);
-
   const calendlyUrl = import.meta.env.VITE_CALENDLY_URL || 'https://calendly.com/your-name/30min';
 
   return (
-    <div className="calendly-panel">
-      <div
-        className="calendly-inline-widget"
-        data-url={calendlyUrl}
-        style={{ minWidth: '320px', height: '760px' }}
-      />
-      <p className="calendly-note">
-        Si querés agendar una llamada directa, reemplazá <strong>VITE_CALENDLY_URL</strong> por tu enlace real de
-        Calendly.
+    <aside className="calendly-panel">
+      <p className="section-eyebrow">Calendly</p>
+      <h3>Agendá una llamada</h3>
+      <p>
+        El embed de Calendly puede bloquearse en GitHub Pages; por eso te dejo un acceso directo estable para abrir tu
+        agenda sin romper el diseño.
       </p>
-    </div>
+      <a className="calendly-button" href={calendlyUrl} target="_blank" rel="noreferrer">
+        Abrir Calendly
+      </a>
+      <p className="calendly-note">Definí <strong>VITE_CALENDLY_URL</strong> con tu enlace real para usar tu agenda.</p>
+    </aside>
   );
 }
 

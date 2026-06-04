@@ -155,7 +155,7 @@ function ContactPage() {
               {state.touched.mensaje || state.submitted ? <small>{fieldErrors.mensaje}</small> : null}
             </label>
 
-            <div className="form-actions">
+            <div className="form-actions contact-actions">
               <button type="submit" className="primary-button">
                 Enviar mensaje
               </button>

@@ -1,20 +1,20 @@
 {
   "datos_personales": {
-    "nombre": "Carlos Martínez",
+    "nombre": "Jordy Huansi",
     "titulo": "Analista de Sistemas",
-    "email": "carlos.martinez@email.com",
+    "email": "jordy.huansi@email.com",
     "telefono": "+54 11 1234-5678",
-    "ubicacion": "Buenos Aires, Argentina",
-    "linkedin": "https://linkedin.com/in/carlosmartinez",
-    "github": "https://github.com/carlosmartinez",
-    "sitio_web": "https://carlosmartinez.dev",
+    "ubicacion": "Cordoba, Argentina",
+    "linkedin": "https://linkedin.com/in/jordyhuansi",
+    "github": "https://github.com/jordydev1993/portfolio-cv2026",
+    "sitio_web": "https://jordydev1993.github.io/portfolio-cv2026/",
     "sobre_mi": "Analista de Sistemas con más de 5 años de experiencia en análisis de requerimientos, diseño de soluciones y gestión de proyectos IT. Apasionado por la optimización de procesos y la transformación digital."
   },
   "educacion": [
     {
       "id": 1,
-      "titulo": "Licenciatura en Análisis de Sistemas",
-      "institucion": "Universidad Tecnológica Nacional",
+      "titulo": "Tecnicatura en Análisis de Sistemas",
+      "institucion": "Intitucion Cervantes",
       "fecha_inicio": "2016-03",
       "fecha_fin": "2021-12",
       "descripcion": "Enfoque en ingeniería de software, bases de datos y gestión de proyectos."
@@ -73,7 +73,7 @@
       "tecnologias": ["Python", "Django", "PostgreSQL", "Bootstrap", "Jira"],
       "fecha": "2023-02 - 2023-09",
       "enlace": "https://github.com/carlosmartinez/inventario-sistema",
-      "imagen": "proyecto-inventario.jpg"
+      "imagen": "/src/data/img/pexels-ivan-s-7621352.jpg"
     },
     {
       "id": 2,
@@ -83,7 +83,7 @@
       "tecnologias": ["Power BI", "SQL Server", "DAX", "Excel"],
       "fecha": "2023-10 - 2024-01",
       "enlace": "https://github.com/carlosmartinez/dashboard-ventas",
-      "imagen": "dashboard-ventas.jpg"
+      "imagen": "/src/data/img/pexels-pixabay-461073.jpg"
     },
     {
       "id": 3,
@@ -93,7 +93,7 @@
       "tecnologias": ["Zapier", "Google Apps Script", "Trello", "Diagramas BPMN"],
       "fecha": "2022-05 - 2022-12",
       "enlace": "https://carlosmartinez.dev/proyecto-rrhh",
-      "imagen": "proyecto-rrhh.jpg"
+      "imagen": "/src/data/img/pexels-shvetsa-3987019.jpg"
     },
     {
       "id": 4,
@@ -103,7 +103,7 @@
       "tecnologias": ["JavaScript", "React", "Node.js", "MongoDB", "Git"],
       "fecha": "2024-01 - Presente",
       "enlace": "https://github.com/carlosmartinez/ecommerce-recommender",
-      "imagen": "ecommerce-proyecto.jpg"
+      "imagen": "/src/data/img/pexels-ivan-s-7621352.jpg"
     }
   ],
   "experiencia_laboral": [
