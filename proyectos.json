@@ -1,0 +1,158 @@
+{
+  "datos_personales": {
+    "nombre": "Carlos Martínez",
+    "titulo": "Analista de Sistemas",
+    "email": "carlos.martinez@email.com",
+    "telefono": "+54 11 1234-5678",
+    "ubicacion": "Buenos Aires, Argentina",
+    "linkedin": "https://linkedin.com/in/carlosmartinez",
+    "github": "https://github.com/carlosmartinez",
+    "sitio_web": "https://carlosmartinez.dev",
+    "sobre_mi": "Analista de Sistemas con más de 5 años de experiencia en análisis de requerimientos, diseño de soluciones y gestión de proyectos IT. Apasionado por la optimización de procesos y la transformación digital."
+  },
+  "educacion": [
+    {
+      "id": 1,
+      "titulo": "Licenciatura en Análisis de Sistemas",
+      "institucion": "Universidad Tecnológica Nacional",
+      "fecha_inicio": "2016-03",
+      "fecha_fin": "2021-12",
+      "descripcion": "Enfoque en ingeniería de software, bases de datos y gestión de proyectos."
+    },
+    {
+      "id": 2,
+      "titulo": "Diplomatura en Ciencia de Datos",
+      "institucion": "Instituto ITBA",
+      "fecha_inicio": "2022-04",
+      "fecha_fin": "2022-11",
+      "descripcion": "Análisis de datos, visualización y machine learning aplicado a negocios."
+    },
+    {
+      "id": 3,
+      "titulo": "Curso de Metodologías Ágiles (Scrum Master)",
+      "institucion": "Coursera - Certificación Internacional",
+      "fecha_inicio": "2023-01",
+      "fecha_fin": "2023-03",
+      "descripcion": "Certificación en Scrum, Kanban y gestión de equipos ágiles."
+    }
+  ],
+  "habilidades": {
+    "tecnicas": [
+      "Análisis de requisitos",
+      "Diagramación UML",
+      "SQL (MySQL, PostgreSQL)",
+      "Python",
+      "JavaScript",
+      "Power BI",
+      "Tableau",
+      "Metodologías Ágiles (Scrum, Kanban)"
+    ],
+    "blandas": [
+      "Comunicación efectiva",
+      "Trabajo en equipo",
+      "Resolución de problemas",
+      "Pensamiento analítico",
+      "Gestión del tiempo"
+    ],
+    "herramientas": [
+      "Jira",
+      "Trello",
+      "Confluence",
+      "Microsoft Visio",
+      "Lucidchart",
+      "Git",
+      "Visual Studio Code"
+    ]
+  },
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Sistema de Gestión de Inventarios",
+      "rol": "Analista de Sistemas Líder",
+      "descripcion": "Diseño e implementación de un sistema para optimizar el control de stock en una cadena de retail, reduciendo pérdidas en un 25%.",
+      "tecnologias": ["Python", "Django", "PostgreSQL", "Bootstrap", "Jira"],
+      "fecha": "2023-02 - 2023-09",
+      "enlace": "https://github.com/carlosmartinez/inventario-sistema",
+      "imagen": "proyecto-inventario.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Dashboard Analítico para Ventas",
+      "rol": "Analista de Datos",
+      "descripcion": "Desarrollo de un dashboard interactivo en Power BI que permite visualizar KPI de ventas y pronosticar tendencias.",
+      "tecnologias": ["Power BI", "SQL Server", "DAX", "Excel"],
+      "fecha": "2023-10 - 2024-01",
+      "enlace": "https://github.com/carlosmartinez/dashboard-ventas",
+      "imagen": "dashboard-ventas.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Automatización de Procesos RRHH",
+      "rol": "Analista de Negocio",
+      "descripcion": "Análisis y automatización del proceso de selección de personal mediante un flujo en Zapier y Google Forms, reduciendo tiempos en un 40%.",
+      "tecnologias": ["Zapier", "Google Apps Script", "Trello", "Diagramas BPMN"],
+      "fecha": "2022-05 - 2022-12",
+      "enlace": "https://carlosmartinez.dev/proyecto-rrhh",
+      "imagen": "proyecto-rrhh.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "E-commerce con Recomendaciones",
+      "rol": "Desarrollador/Analista",
+      "descripcion": "Plataforma de ventas online con motor de recomendaciones basado en comportamiento del usuario (prototipo).",
+      "tecnologias": ["JavaScript", "React", "Node.js", "MongoDB", "Git"],
+      "fecha": "2024-01 - Presente",
+      "enlace": "https://github.com/carlosmartinez/ecommerce-recommender",
+      "imagen": "ecommerce-proyecto.jpg"
+    }
+  ],
+  "experiencia_laboral": [
+    {
+      "id": 1,
+      "puesto": "Analista de Sistemas Senior",
+      "empresa": "TechSolutions S.A.",
+      "ubicacion": "Remoto / Buenos Aires",
+      "fecha_inicio": "2022-01",
+      "fecha_fin": "Actualidad",
+      "responsabilidades": [
+        "Liderar el análisis y documentación de requerimientos funcionales y técnicos.",
+        "Diseñar diagramas UML y BPMN para nuevos desarrollos.",
+        "Coordinar equipos de desarrollo bajo metodologías ágiles.",
+        "Realizar pruebas de integración y user acceptance testing (UAT)."
+      ]
+    },
+    {
+      "id": 2,
+      "puesto": "Analista de Datos Junior",
+      "empresa": "DataVision",
+      "ubicacion": "Córdoba, Argentina",
+      "fecha_inicio": "2019-06",
+      "fecha_fin": "2021-12",
+      "responsabilidades": [
+        "Extracción y limpieza de datos desde múltiples fuentes.",
+        "Creación de reportes en Tableau para el área de marketing.",
+        "Automatización de procesos con scripts en Python."
+      ]
+    }
+  ],
+  "certificaciones": [
+    "Scrum Foundation Professional Certificate (SFPC) - CertiProf",
+    "SQL for Data Science - University of California, Davis (Coursera)",
+    "Fundamentos de Análisis de Negocios - IBM",
+    "Power BI Data Analyst Associate - Microsoft"
+  ],
+  "idiomas": [
+    {
+      "idioma": "Español",
+      "nivel": "Nativo"
+    },
+    {
+      "idioma": "Inglés",
+      "nivel": "Avanzado (C1) - First Certificate in English"
+    },
+    {
+      "idioma": "Portugués",
+      "nivel": "Intermedio (B1)"
+    }
+  ]
+}
