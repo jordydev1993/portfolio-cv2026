@@ -1,14 +1,27 @@
 import PropTypes from 'prop-types';
 
 function ProjectCard({ project }) {
-  const hasExternalImage = project.imagen && project.imagen.startsWith('http');
   const label = project.imagen || project.nombre;
+
+  const resolveLocalImage = (imgPath) => {
+    if (!imgPath) return null;
+    if (imgPath.startsWith('http')) return imgPath;
+    // proyectos.json uses paths like 'src/data/img/filename.jpg'
+    const normalized = imgPath.replace(/^src\//, ''); // e.g. 'data/img/..'
+    try {
+      return new URL(`../${normalized}`, import.meta.url).href;
+    } catch (e) {
+      return imgPath;
+    }
+  };
+
+  const imageSrc = resolveLocalImage(project.imagen);
 
   return (
     <article className="project-card">
       <div className="project-visual" data-variant={project.id % 4}>
-        {hasExternalImage ? (
-          <img src={project.imagen} alt={project.nombre} className="project-image" />
+        {imageSrc ? (
+          <img src={imageSrc} alt={project.nombre} className="project-image" />
         ) : (
           <div className="project-placeholder">
             <span>{label}</span>

@@ -82,13 +82,18 @@ function HomePage() {
         </div>
       </section>
 
-      <section className="content-section about-teaser">
-        <SectionHeading eyebrow="Sobre mí" title="Base editorial con light/dark" action={<Link to="/about">Abrir sección</Link>} />
-        <p>
-          La estructura prioriza bloques amplios, tipografía marcada y tarjetas limpias, tomando como base la maqueta
-          adjunta pero adaptada a un portfolio SPA navegable.
-        </p>
-      </section>
+     <section className="content-section about-teaser">
+  <SectionHeading 
+    eyebrow="Sobre mí" 
+    title="Analista de Sistemas apasionado por las soluciones tecnológicas" 
+    action={<Link to="/about">Ver más</Link>} 
+  />
+  <p>
+    Soy Analista de Sistemas con más de 5 años de experiencia en análisis de requerimientos, 
+    diseño de soluciones y gestión de proyectos. Me especializo en transformar necesidades de negocio 
+    en sistemas funcionales y escalables.
+  </p>
+</section>
     </div>
   );
 }

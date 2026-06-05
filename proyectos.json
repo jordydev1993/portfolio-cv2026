@@ -73,7 +73,7 @@
       "tecnologias": ["Python", "Django", "PostgreSQL", "Bootstrap", "Jira"],
       "fecha": "2023-02 - 2023-09",
       "enlace": "https://github.com/carlosmartinez/inventario-sistema",
-      "imagen": "/src/data/img/pexels-ivan-s-7621352.jpg"
+      "imagen": "src/data/img/pexels-ivan-s-7621352.jpg"
     },
     {
       "id": 2,
@@ -83,7 +83,7 @@
       "tecnologias": ["Power BI", "SQL Server", "DAX", "Excel"],
       "fecha": "2023-10 - 2024-01",
       "enlace": "https://github.com/carlosmartinez/dashboard-ventas",
-      "imagen": "/src/data/img/pexels-pixabay-461073.jpg"
+      "imagen": "src/data/img/pexels-pixabay-461073.jpg"
     },
     {
       "id": 3,
@@ -93,7 +93,7 @@
       "tecnologias": ["Zapier", "Google Apps Script", "Trello", "Diagramas BPMN"],
       "fecha": "2022-05 - 2022-12",
       "enlace": "https://carlosmartinez.dev/proyecto-rrhh",
-      "imagen": "/src/data/img/pexels-shvetsa-3987019.jpg"
+      "imagen": "src/data/img/pexels-shvetsa-3987019.jpg"
     },
     {
       "id": 4,
@@ -103,7 +103,7 @@
       "tecnologias": ["JavaScript", "React", "Node.js", "MongoDB", "Git"],
       "fecha": "2024-01 - Presente",
       "enlace": "https://github.com/carlosmartinez/ecommerce-recommender",
-      "imagen": "/src/data/img/pexels-ivan-s-7621352.jpg"
+      "imagen": "src/data/img/pexels-ivan-s-7621352.jpg"
     }
   ],
   "experiencia_laboral": [
